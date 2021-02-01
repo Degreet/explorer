@@ -1,5 +1,5 @@
-from modules.read_dir import read_dir
-from modules.eel_setup import setup_eel
+from static.modules.read_dir import read_dir
+from static.modules.eel_setup import setup_eel
 import eel
 import os
 
