@@ -30,6 +30,10 @@ main {
 	transition: 0.3s;
 }
 
+#fileList li {
+	user-select: none;
+}
+
 #fileList li[data-type='folder'] {
 	background: #ececec;
 }
