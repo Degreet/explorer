@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: 'JetBrains Mono', Lato, Roboto, sans-serif;
+	box-sizing: border-box;
+}
+
+main {
+	padding: 20px;
+}
+
+#fileList {
+	margin-top: 20px;
+	list-style-type: none;
+}
+
+#fileList li {
+	background: #fafafa;
+	border-radius: 3px;
+	border: 1px solid #bfbfbf;
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+#fileList li:hover {
+	opacity: 0.7;
+}
+
+#goBackBtn {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	border-radius: 50%;
+	width: 48px;
+	height: 48px;
+	background: #fafafa;
+	border: #bfbfbf;
+	font-size: 18px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#goBackBtn:hover {
+	transform: scale(1.1);
+}

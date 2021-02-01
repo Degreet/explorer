@@ -7,6 +7,8 @@ export default function setOnload() {
 		const dir = await readDir(lastDir);
 		renderFileList(dir);
 
+		goBackBtn.onclick = goBack;
+
 		onkeydown = (e) => {
 			if (e.altKey && e.key == 'ArrowLeft') {
 				goBack();
