@@ -24,7 +24,7 @@ main {
 	border-radius: 3px;
 	border: 1px solid #bfbfbf;
 	padding: 10px;
-	font-size: 16px;
+	font-size: 13.5px;
 	margin-bottom: 15px;
 	cursor: pointer;
 	transition: 0.3s;
@@ -57,6 +57,10 @@ main {
 	justify-content: center;
 	align-items: center;
 	transition: 0.3s;
+}
+
+#goBackBtn:hover {
+	transform: scale(1.02);
 }
 
 .addressbar {
