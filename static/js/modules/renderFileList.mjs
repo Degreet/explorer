@@ -1,8 +1,8 @@
-import setFileListListener from './setFileListListener.mjs';
+import renderAddressbar from './renderAddressbar.mjs';
 
 export default function renderFileList(dir) {
 	fileList.innerHTML = dir.map(buildFileForList).join('');
-	setFileListListener();
+	renderAddressbar();
 }
 
 function buildFileForList(data) {
