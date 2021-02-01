@@ -25,10 +25,15 @@ main {
 	font-size: 16px;
 	margin-bottom: 15px;
 	cursor: pointer;
+	transition: 0.3s;
+}
+
+#fileList li[data-type='folder'] {
+	background: #ececec;
 }
 
 #fileList li:hover {
-	opacity: 0.7;
+	transform: scale(1.03);
 }
 
 #goBackBtn {
