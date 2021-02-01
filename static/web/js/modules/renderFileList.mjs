@@ -7,9 +7,8 @@ export default function renderFileList(dir) {
 
 function buildFileForList(data) {
 	return `
-		<li data-path="${data.path}" data-type="${data.type}">${data.path.replace(
-		/\\/g,
-		''
-	)}</li>
+		<li data-path="${data.path}" data-type="${data.type}">
+			${data.path.replace(/\\/g, '')}
+		</li>
 	`;
 }

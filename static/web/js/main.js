@@ -1,8 +1,10 @@
 import './modules/readDir.js';
 import './modules/renderFileList.mjs';
-import setOnload from './modules/onload.mjs';
+import setup from './modules/onload.mjs';
 
-window.lastOpenedFolders = [];
-window.lastDir = 'C:/';
-
-setOnload();
+(async () => {
+	window.username = await eel.get_username()();
+	window.lastOpenedFolders = [];
+	window.lastDir = `C:/Users/${username}/Desktop`;
+	setup();
+})();

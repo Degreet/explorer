@@ -16,6 +16,8 @@ main {
 	margin-top: 20px;
 	padding: 20px;
 	list-style-type: none;
+	max-width: 90%;
+	margin: auto;
 }
 
 #fileList li,
@@ -48,7 +50,8 @@ main {
 	cursor: auto;
 }
 
-#goBackBtn {
+#goBackBtn,
+#goUpBtn {
 	margin-right: 15px;
 	border-radius: 50%;
 	width: 42px;
@@ -63,7 +66,8 @@ main {
 	transition: 0.3s;
 }
 
-#goBackBtn:hover {
+#goBackBtn:hover,
+#goUpBtn:hover {
 	transform: scale(1.02);
 }
 
